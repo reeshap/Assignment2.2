@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title> Assignment 2.2---[Design HTML form]</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <table cellspacing="10" cellpadding="10">
+            <th></th>
+            <tr>
+                <td height="30" style="background:grey"></td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Your Details: </legend>
+                        <label>Name</label><input type="text" name="name" id="nameId"><br/><br/>
+                        <label>Email</label><input type="email" name="email" id="emailId"><br/><br/>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Your Review: </legend>
+                        <label>How did you hear about us?</label>
+                        <select>
+                                <option value="google">Google</option>
+                                <option value="Ads">Advertisements</option>
+                                <option value="Friends">Through Friends</option>
+                                <option value="Emails">Emails</option>
+                            </select>
+                        <br/><br/>
+                        <label>Would you visit again?</label>
+                        <input type="radio" name="visit" value="yes" />Yes
+                        <input type="radio" name="visit" value="no" />No
+                        <input type="radio" name="visit" value="maybe" />MayBe<br/><br/>
+
+                        <label>Comments:</label><br/>
+                        <textarea rows="4" cols="40"> </textarea><br/>
+                        <input type="checkbox" checked="true">Sign Me Up for email updates<br/><br/>
+                        <input type="submit" value="Submit Reviews" /><br/>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
